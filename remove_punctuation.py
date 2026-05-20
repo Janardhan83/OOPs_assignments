@@ -1,3 +1,4 @@
+# removing punctuation from given string
 import sys
 import string
 class PUNCTUATION:
@@ -25,6 +26,6 @@ except Exception as e:
       print(f"Error in Line no : {er_l.tb_lineno} : Reason  : {er_m} :due to {er_t}")
 
 print(texts.remove_punctuations())
-"""
+""" OUT PUT:-
 enter a text: data science *(&)*&^ and a*&&^i
  data science  and ai """
